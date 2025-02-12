@@ -12,13 +12,14 @@ Responsive UI for seamless experience
 I have used JAVA for both backend and frontend
 
 Create a database named JobAlign with two tables Login and Employee and insert the password and username you prefer through sql query in the Login table
-Login Table:
 
+Login Table:
 create table Login(
   username varchar(50),
   password varchar(50)
 );
 
+Employee Table:
 create table Employee(
   Name varchar(50),
   FatherName varchar(50),
@@ -32,3 +33,5 @@ create table Employee(
   AadhaarNo varchar(12),
   EmployeeID varchar(10)
 );
+
+After the setup is done just Run the JobAlign.java file
